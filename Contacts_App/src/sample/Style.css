@@ -1,0 +1,14 @@
+
+#rootPane{
+    -fx-background-image: url("background-image.jpg");
+
+}
+#listPane{
+    -fx-background-color: gray;
+}
+
+#stackPane{
+    -fx-border-radius: 50%;
+    -fx-background-radius: 15;
+    -fx-padding: 10;
+}
