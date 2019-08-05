@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <GridPane prefHeight="278.0" prefWidth="393.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="221.0" minWidth="10.0" prefWidth="28.005346298217773" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="221.0" minWidth="10.0" prefWidth="80.7093505859375" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="236.101318359375" minWidth="10.0" prefWidth="235.2906494140625" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="127.0" minWidth="10.0" prefWidth="35.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="121.0" minHeight="10.0" prefHeight="46.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="121.0" minHeight="10.0" prefHeight="57.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="121.0" minHeight="10.0" prefHeight="68.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="121.0" minHeight="10.0" prefHeight="68.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="154.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="154.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="154.0" minHeight="10.0" prefHeight="43.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <TextField fx:id="tipTextField" editable="false" promptText="Total Tip" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                <TextField GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <TextField fx:id="amountTextField" promptText="Total Bill" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Button fx:id="calculate" mnemonicParsing="false" onAction="#calculateButtonPressed" prefHeight="27.0" prefWidth="175.0" text="Calculate" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                <Slider fx:id="tipPercentageSlider" onScroll="#initialize" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Amount: " textAlignment="CENTER" wrappingWidth="77.24073791503906" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tip: " textAlignment="CENTER" wrappingWidth="66.56607818603516" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Total: " textAlignment="CENTER" wrappingWidth="108.2060546875" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                <TextField fx:id="totalTextField" editable="false" promptText="Total Amount " GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="tipPercentageLabel" prefHeight="17.0" prefWidth="72.0" text="Label" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Total:" textAlignment="CENTER" wrappingWidth="75.48350524902344" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            </children>
+        </GridPane>
+    </children>
+</GridPane>
