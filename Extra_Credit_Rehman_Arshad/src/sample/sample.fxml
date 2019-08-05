@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane id="rootPane" alignment="center" hgap="10" prefWidth="598.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints maxWidth="278.0" minWidth="24.0" prefWidth="119.0" />
+      <ColumnConstraints maxWidth="532.0" minWidth="218.0" prefWidth="348.0" />
+      <ColumnConstraints maxWidth="111.0" minWidth="10.0" prefWidth="111.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="69.0" minHeight="10.0" prefHeight="26.0" />
+      <RowConstraints maxHeight="223.0" minHeight="137.0" prefHeight="210.0" />
+      <RowConstraints maxHeight="68.0" minHeight="10.0" prefHeight="24.0" />
+   </rowConstraints>
+   <children>
+      <Pane id="childPane" fx:id="pane" prefHeight="236.0" prefWidth="348.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   </children>
+</GridPane>
