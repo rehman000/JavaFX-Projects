@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="bg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <Pane id="bg" prefHeight="838.0" prefWidth="1311.0" stylesheets="@style.css" />
+        <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="838.0" prefWidth="1311.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button id="Alkaline_Earth_Metals" fx:id="radium" mnemonicParsing="false" onAction="#radiumButtonPressed" prefHeight="74.0" prefWidth="75.0" stylesheets="@style.css" text="Ra" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Periodic Table of Elements" textAlignment="CENTER" wrappingWidth="468.13671875" GridPane.columnIndex="6">
+                    <font>
+                        <Font name="System Bold" size="36.0" />
+                    </font>
+                </Text>
+                <Button id="Other_Non_Metals" fx:id="hydrogen" mnemonicParsing="false" onAction="#hydrogenButtonPressed" prefHeight="65.0" prefWidth="88.0" stylesheets="@style.css" text="H" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Alkali_Metals" fx:id="lithium" mnemonicParsing="false" onAction="#lithiumButtonPressed" prefHeight="72.0" prefWidth="69.0" stylesheets="@style.css" text="Li" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Alkali_Metals" fx:id="sodium" mnemonicParsing="false" onAction="#sodiumButtonPressed" prefHeight="73.0" prefWidth="71.0" stylesheets="@style.css" text="Na" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Alkali_Metals" fx:id="potassium" mnemonicParsing="false" onAction="#potassiumButtonPressed" prefHeight="72.0" prefWidth="73.0" stylesheets="@style.css" text="K" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Alkali_Metals" fx:id="rubidium" mnemonicParsing="false" onAction="#rubidiumButtonPressed" prefHeight="64.0" prefWidth="90.0" stylesheets="@style.css" text="Rb" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Alkali_Metals" fx:id="cesium" mnemonicParsing="false" onAction="#cesiumButtonPressed" prefHeight="64.0" prefWidth="89.0" stylesheets="@style.css" text="Cs" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Alkali_Metals" fx:id="francium" mnemonicParsing="false" onAction="#franciumButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="Fr" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Alkaline_Earth_Metals" fx:id="beryllium" mnemonicParsing="false" onAction="#berylliumButtonPressed" prefHeight="74.0" prefWidth="66.0" stylesheets="@style.css" text="Be" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Alkaline_Earth_Metals" fx:id="magnesium" mnemonicParsing="false" onAction="#magnesiumButtonPressed" prefHeight="73.0" prefWidth="66.0" stylesheets="@style.css" text="Mg" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font size="22.0" />
+               </font></Button>
+                <Button id="Alkaline_Earth_Metals" fx:id="calcium" mnemonicParsing="false" onAction="#calciumButtonPressed" prefHeight="72.0" prefWidth="67.0" stylesheets="@style.css" text="Ca" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Alkaline_Earth_Metals" fx:id="strontium" mnemonicParsing="false" onAction="#strontiumButtonPressed" prefHeight="75.0" prefWidth="67.0" stylesheets="@style.css" text="Sr" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Alkaline_Earth_Metals" fx:id="barium" mnemonicParsing="false" onAction="#bariumButtonPressed" prefHeight="72.0" prefWidth="72.0" stylesheets="@style.css" text="Ba" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="scandium" mnemonicParsing="false" onAction="#scandiumButtonPressed" prefHeight="72.0" prefWidth="76.0" stylesheets="@style.css" text="Sc" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="yttrium" mnemonicParsing="false" onAction="#yttriumButtonPressed" prefHeight="73.0" prefWidth="81.0" stylesheets="@style.css" text="Y" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" mnemonicParsing="false" prefHeight="73.0" prefWidth="67.0" stylesheets="@style.css" text="57-71" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+                <Button id="Actinoids" mnemonicParsing="false" prefHeight="72.0" prefWidth="71.0" stylesheets="@style.css" text="89-103" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <font>
+                  <Font size="13.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="titanium" mnemonicParsing="false" onAction="#titaniumButtonPressed" prefHeight="72.0" prefWidth="65.0" stylesheets="@style.css" text="Ti" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="zirconium" mnemonicParsing="false" onAction="#zirconiumButtonPressed" prefHeight="74.0" prefWidth="67.0" stylesheets="@style.css" text="Zr" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="hafnium" mnemonicParsing="false" onAction="#hafniumButtonPressed" prefHeight="75.0" prefWidth="70.0" stylesheets="@style.css" text="Hf" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="rutherfordium" mnemonicParsing="false" onAction="#rutherfordiumButtonPressed" prefHeight="73.0" prefWidth="70.0" stylesheets="@style.css" text="Rf" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="vanadium" mnemonicParsing="false" onAction="#vanadiumButtonPressed" prefHeight="65.0" prefWidth="86.0" stylesheets="@style.css" text="V" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="niobium" mnemonicParsing="false" onAction="#niobiumButtonPressed" prefHeight="72.0" prefWidth="74.0" stylesheets="@style.css" text="Nb" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="tantalum" mnemonicParsing="false" onAction="#tantalumButtonPressed" prefHeight="64.0" prefWidth="93.0" stylesheets="@style.css" text="Ta" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="dubnium" mnemonicParsing="false" onAction="#dubniumButtonPressed" prefHeight="74.0" prefWidth="72.0" stylesheets="@style.css" text="Dp" GridPane.columnIndex="5" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="chromium" layoutX="262.0" layoutY="302.0" mnemonicParsing="false" onAction="#chromiumButtonPressed" prefHeight="65.0" prefWidth="89.0" stylesheets="@style.css" text="Cr" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="molybdenum" layoutX="325.0" layoutY="302.0" mnemonicParsing="false" onAction="#molybdenumButtonPressed" prefHeight="64.0" prefWidth="91.0" stylesheets="@style.css" text="Mo" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <font>
+                  <Font size="22.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="tungsten" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#tungstenButtonPressed" prefHeight="64.0" prefWidth="93.0" stylesheets="@style.css" text="W" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="seaborgium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#seaborgiumButtonPressed" prefHeight="64.0" prefWidth="100.0" stylesheets="@style.css" text="Sg" GridPane.columnIndex="6" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="manganese" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#manganeseButtonPressed" prefHeight="65.0" prefWidth="103.0" stylesheets="@style.css" text="Mn" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <font>
+                  <Font size="22.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="technetium" layoutX="388.0" layoutY="302.0" mnemonicParsing="false" onAction="#technetiumButtonPressed" prefHeight="64.0" prefWidth="93.0" stylesheets="@style.css" text="Tc" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="rhenium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#rheniumButtonPressed" prefHeight="64.0" prefWidth="93.0" stylesheets="@style.css" text="Re" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="bohrium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#bohriumButtonPressed" prefHeight="64.0" prefWidth="100.0" stylesheets="@style.css" text="Bh" GridPane.columnIndex="7" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="iron" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#ironButtonPressed" prefHeight="65.0" prefWidth="106.0" stylesheets="@style.css" text="Fe" GridPane.columnIndex="8" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="ruthenium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#rutheniumButtonPressed" prefHeight="64.0" prefWidth="89.0" stylesheets="@style.css" text="Ru" GridPane.columnIndex="8" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="osmium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#osmiumButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="Os" GridPane.columnIndex="8" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="hassium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#hassiumButtonPressed" prefHeight="64.0" prefWidth="89.0" stylesheets="@style.css" text="Hs" GridPane.columnIndex="8" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="cobalt" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#cobaltButtonPressed" prefHeight="65.0" prefWidth="95.0" stylesheets="@style.css" text="Co" GridPane.columnIndex="9" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="zinc" layoutX="577.0" layoutY="302.0" mnemonicParsing="false" onAction="#zincButtonPressed" prefHeight="65.0" prefWidth="104.0" stylesheets="@style.css" text="Zn" GridPane.columnIndex="12" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Unknown" fx:id="roentgenium" layoutX="514.0" layoutY="446.0" mnemonicParsing="false" onAction="#roentgeniumButtonPressed" prefHeight="64.0" prefWidth="101.0" stylesheets="@style.css" text="Rg" GridPane.columnIndex="11" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="gold" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#goldButtonPressed" prefHeight="64.0" prefWidth="107.0" stylesheets="@style.css" text="Au" GridPane.columnIndex="11" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="silver" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#silverButtonPressed" prefHeight="64.0" prefWidth="108.0" stylesheets="@style.css" text="Ag" GridPane.columnIndex="11" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="copper" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#copperButtonPressed" prefHeight="65.0" prefWidth="106.0" stylesheets="@style.css" text="Cu" GridPane.columnIndex="11" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Unknown" fx:id="darmstadtium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#darmstadtiumButtonPressed" prefHeight="64.0" prefWidth="111.0" stylesheets="@style.css" text="Ds" GridPane.columnIndex="10" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="platinum" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#platinumButtonPressed" prefHeight="64.0" prefWidth="119.0" stylesheets="@style.css" text="Pt" GridPane.columnIndex="10" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="palladium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#palladiumButtonPressed" prefHeight="64.0" prefWidth="124.0" stylesheets="@style.css" text="Pd" GridPane.columnIndex="10" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="nickel" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#nickelButtonPressed" prefHeight="65.0" prefWidth="122.0" stylesheets="@style.css" text="Ni" GridPane.columnIndex="10" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Unknown" fx:id="meitnerium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#meitneriumButtonPressed" prefHeight="64.0" prefWidth="108.0" stylesheets="@style.css" text="Mt" GridPane.columnIndex="9" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="iridium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#iridiumButtonPressed" prefHeight="64.0" prefWidth="104.0" stylesheets="@style.css" text="Ir" GridPane.columnIndex="9" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button layoutX="10.0" layoutY="11.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="64.0" stylesheets="@style.css" text="Button" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                <Button id="Transition_Metals" fx:id="rhodium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#rhodiumButtonPressed" prefHeight="64.0" prefWidth="104.0" stylesheets="@style.css" text="Rh" GridPane.columnIndex="9" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="copernicium" layoutX="766.0" layoutY="302.0" mnemonicParsing="false" onAction="#coperniciumButtonPressed" prefHeight="64.0" prefWidth="106.0" stylesheets="@style.css" text="Cn" GridPane.columnIndex="12" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="mercury" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#mercuryButtonPressed" prefHeight="64.0" prefWidth="118.0" stylesheets="@style.css" text="Hg" GridPane.columnIndex="12" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Transition_Metals" fx:id="cadmium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#cadmiumButtonPressed" prefHeight="64.0" prefWidth="114.0" stylesheets="@style.css" text="Cd" GridPane.columnIndex="12" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Metalloids" fx:id="boron" layoutX="766.0" layoutY="302.0" mnemonicParsing="false" onAction="#boronButtonPressed" prefHeight="65.0" prefWidth="96.0" stylesheets="@style.css" text="B" GridPane.columnIndex="13" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Post_Transition_Metals" fx:id="aluminum" layoutX="829.0" layoutY="157.0" mnemonicParsing="false" onAction="#aluminumButtonPressed" prefHeight="65.0" prefWidth="88.0" stylesheets="@style.css" text="Al" GridPane.columnIndex="13" GridPane.rowIndex="4">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Other_Non_Metals" fx:id="carbon" layoutX="829.0" layoutY="230.0" mnemonicParsing="false" onAction="#carbonButtonPressed" prefHeight="65.0" prefWidth="93.0" stylesheets="@style.css" text="C" GridPane.columnIndex="14" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Unknown" fx:id="nihonium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#nihoniumButtonPressed" prefHeight="64.0" prefWidth="106.0" stylesheets="@style.css" text="Nh" GridPane.columnIndex="13" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Post_Transition_Metals" fx:id="thallium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#thalliumButtonPressed" prefHeight="64.0" prefWidth="105.0" stylesheets="@style.css" text="Tl" GridPane.columnIndex="13" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Post_Transition_Metals" fx:id="indium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#indiumButtonPressed" prefHeight="64.0" prefWidth="96.0" stylesheets="@style.css" text="In" GridPane.columnIndex="13" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Post_Transition_Metals" fx:id="gallium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#galliumButtonPressed" prefHeight="65.0" prefWidth="108.0" stylesheets="@style.css" text="Ga" GridPane.columnIndex="13" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Unknown" fx:id="moscovium" layoutX="892.0" layoutY="157.0" mnemonicParsing="false" onAction="#moscoviumButtonPressed" prefHeight="64.0" prefWidth="106.0" stylesheets="@style.css" text="Mc" GridPane.columnIndex="15" GridPane.rowIndex="8">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+                <Button id="Post_Transition_Metals" fx:id="bismuth" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#bismuthButtonPressed" prefHeight="64.0" prefWidth="120.0" stylesheets="@style.css" text="Bi" GridPane.columnIndex="15" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Metalloids" fx:id="antimony" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#antimonyButtonPressed" prefHeight="64.0" prefWidth="91.0" stylesheets="@style.css" text="Sb" GridPane.columnIndex="15" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Metalloids" fx:id="arsenic" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#arsenicButtonPressed" prefHeight="222.0" prefWidth="84.0" stylesheets="@style.css" text="As" GridPane.columnIndex="15" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Other_Non_Metals" fx:id="phosphorus" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#phosphorusButtonPressed" prefHeight="65.0" prefWidth="66.0" stylesheets="@style.css" text="P" GridPane.columnIndex="15" GridPane.rowIndex="4">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Other_Non_Metals" fx:id="nitrogen" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#nitrogenButtonPressed" prefHeight="65.0" prefWidth="87.0" stylesheets="@style.css" text="N" GridPane.columnIndex="15" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Post_Transition_Metals" fx:id="flerovium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#fleroviumButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="Fl" GridPane.columnIndex="14" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Post_Transition_Metals" fx:id="lead" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#leadButtonPressed" prefHeight="64.0" prefWidth="91.0" stylesheets="@style.css" text="Pb" GridPane.columnIndex="14" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Post_Transition_Metals" fx:id="tin" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#tinButtonPressed" prefHeight="64.0" prefWidth="90.0" stylesheets="@style.css" text="Sn" GridPane.columnIndex="14" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Metalloids" fx:id="germanium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#germaniumButtonPressed" prefHeight="65.0" prefWidth="96.0" stylesheets="@style.css" text="Ge" GridPane.columnIndex="14" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Metalloids" fx:id="silicon" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#siliconButtonPressed" prefHeight="65.0" prefWidth="95.0" stylesheets="@style.css" text="Si" GridPane.columnIndex="14" GridPane.rowIndex="4">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Unknown" fx:id="livermorium" layoutX="955.0" layoutY="157.0" mnemonicParsing="false" onAction="#livermoriumButtonPressed" prefHeight="64.0" prefWidth="88.0" stylesheets="@style.css" text="Lv" GridPane.columnIndex="16" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Post_Transition_Metals" fx:id="polonium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#poloniumButtonPressed" prefHeight="64.0" prefWidth="94.0" stylesheets="@style.css" text="Po" GridPane.columnIndex="16" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Metalloids" fx:id="tellurium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#telluriumButtonPressed" prefHeight="230.0" prefWidth="94.0" stylesheets="@style.css" text="Te" GridPane.columnIndex="16" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Other_Non_Metals" fx:id="selenium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#seleniumButtonPressed" prefHeight="75.0" prefWidth="66.0" stylesheets="@style.css" text="Se" GridPane.columnIndex="16" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Other_Non_Metals" fx:id="sulfur" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#sulfurButtonPressed" prefHeight="65.0" prefWidth="82.0" stylesheets="@style.css" text="S" GridPane.columnIndex="16" GridPane.rowIndex="4">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Other_Non_Metals" fx:id="oxygen" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#oxygenButtonPressed" prefHeight="65.0" prefWidth="117.0" stylesheets="@style.css" text="O" GridPane.columnIndex="16" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Metalloids" fx:id="astatine" layoutX="1018.0" layoutY="518.0" mnemonicParsing="false" onAction="#astatineButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="At" GridPane.columnIndex="17" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Other_Non_Metals" fx:id="iodine" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#iodineButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="I" GridPane.columnIndex="17" GridPane.rowIndex="6">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Other_Non_Metals" fx:id="bromine" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#bromineButtonPressed" prefHeight="65.0" prefWidth="84.0" stylesheets="@style.css" text="Br" GridPane.columnIndex="17" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Other_Non_Metals" fx:id="chlorine" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#chlorineButtonPressed" prefHeight="65.0" prefWidth="87.0" stylesheets="@style.css" text="Cl" GridPane.columnIndex="17" GridPane.rowIndex="4">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Other_Non_Metals" fx:id="fluorine" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#fluorineButtonPressed" prefHeight="65.0" prefWidth="87.0" stylesheets="@style.css" text="F" GridPane.columnIndex="17" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Unknown" fx:id="tennessine" layoutX="1081.0" layoutY="157.0" mnemonicParsing="false" onAction="#tennessineButtonPressed" prefHeight="64.0" prefWidth="83.0" stylesheets="@style.css" text="Ts" GridPane.columnIndex="17" GridPane.rowIndex="8">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Noble_Gases" layoutX="1081.0" layoutY="518.0" mnemonicParsing="false" onAction="#xenonButtonPressed" prefHeight="64.0" prefWidth="88.0" stylesheets="@style.css" text="Xe" GridPane.columnIndex="18" GridPane.rowIndex="6" fx:id="xenon">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Noble_Gases" fx:id="krypton" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#kryptonButtonPressed" prefHeight="65.0" prefWidth="87.0" stylesheets="@style.css" text="Kr" GridPane.columnIndex="18" GridPane.rowIndex="5">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Noble_Gases" fx:id="argon" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#argonButtonPressed" prefHeight="65.0" prefWidth="82.0" stylesheets="@style.css" text="Ar" GridPane.columnIndex="18" GridPane.rowIndex="4">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Noble_Gases" fx:id="neon" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#neonButtonPressed" prefHeight="65.0" prefWidth="82.0" stylesheets="@style.css" text="Ne" GridPane.columnIndex="18" GridPane.rowIndex="3">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Noble_Gases" fx:id="helium" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#heliumButtonPressed" prefHeight="65.0" prefWidth="86.0" stylesheets="@style.css" text="He" GridPane.columnIndex="18" GridPane.rowIndex="2">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Unknown" fx:id="oganesson" layoutX="1144.0" layoutY="84.0" mnemonicParsing="false" onAction="#oganessonButtonPressed" prefHeight="64.0" prefWidth="84.0" stylesheets="@style.css" text="Og" GridPane.columnIndex="18" GridPane.rowIndex="8">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+                <Button id="Noble_Gases" fx:id="radon" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#radonButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="Rn" GridPane.columnIndex="18" GridPane.rowIndex="7">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="cerium" layoutX="1144.0" layoutY="518.0" mnemonicParsing="false" onAction="#ceriumButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="Ce" GridPane.columnIndex="4" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="lanthanum" layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#lanthanumButtonPressed" prefHeight="64.0" prefWidth="96.0" stylesheets="@style.css" text="La" GridPane.columnIndex="3" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="ytterbium" layoutX="199.0" layoutY="608.0" mnemonicParsing="false" onAction="#ytterbiumButtonPressed" prefHeight="64.0" prefWidth="84.0" stylesheets="@style.css" text="Yb" GridPane.columnIndex="16" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="thulium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#thuliumButtonPressed" prefHeight="64.0" prefWidth="92.0" stylesheets="@style.css" text="Tm" GridPane.columnIndex="15" GridPane.rowIndex="10">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="erbium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#erbiumButtonPressed" prefHeight="64.0" prefWidth="83.0" stylesheets="@style.css" text="Er" GridPane.columnIndex="14" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="holmium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#holmiumButtonPressed" prefHeight="64.0" prefWidth="99.0" stylesheets="@style.css" text="Ho" GridPane.columnIndex="13" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="dysprosium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#dysprosiumButtonPressed" prefHeight="64.0" prefWidth="90.0" stylesheets="@style.css" text="Dy" GridPane.columnIndex="12" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="terbium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#terbiumButtonPressed" prefHeight="64.0" prefWidth="91.0" stylesheets="@style.css" text="Tb" GridPane.columnIndex="11" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="gadolinium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#gadoliniumButtonPressed" prefHeight="64.0" prefWidth="90.0" stylesheets="@style.css" text="Gd" GridPane.columnIndex="10" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="europium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#europiumButtonPressed" prefHeight="64.0" prefWidth="87.0" stylesheets="@style.css" text="Eu" GridPane.columnIndex="9" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="samarium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#samariumButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="Sm" GridPane.columnIndex="8" GridPane.rowIndex="10">
+               <font>
+                  <Font size="22.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="promethium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#promethiumButtonPressed" prefHeight="64.0" prefWidth="83.0" stylesheets="@style.css" text="Pm" GridPane.columnIndex="7" GridPane.rowIndex="10">
+               <font>
+                  <Font size="22.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="neodymium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#neodymiumButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="Nd" GridPane.columnIndex="6" GridPane.rowIndex="10">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="praseodymium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#praseodymiumButtonPressed" prefHeight="64.0" prefWidth="85.0" stylesheets="@style.css" text="Pr" GridPane.columnIndex="5" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="plutonium" layoutX="1018.0" layoutY="608.0" mnemonicParsing="false" onAction="#plutoniumButtonPressed" prefHeight="64.0" prefWidth="83.0" stylesheets="@style.css" text="Pu" textFill="WHITE" GridPane.columnIndex="8" GridPane.rowIndex="11">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="neptunium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#neptuniumButtonPressed" prefHeight="64.0" prefWidth="81.0" stylesheets="@style.css" text="Np" textFill="WHITE" GridPane.columnIndex="7" GridPane.rowIndex="11">
+               <font>
+                  <Font size="21.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="uranium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#uraniumButtonPressed" prefHeight="64.0" prefWidth="89.0" stylesheets="@style.css" text="U" textFill="WHITE" GridPane.columnIndex="6" GridPane.rowIndex="11">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="protactinium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#protactiniumButtonPressed" prefHeight="64.0" prefWidth="85.0" stylesheets="@style.css" text="Pa" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="11">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="thorium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#thoriumButtonPressed" prefHeight="64.0" prefWidth="83.0" stylesheets="@style.css" text="Th" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="11">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="actinium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#actiniumButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="Ac" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="11">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Lanthanoids" fx:id="lutetium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#lutetiumButtonPressed" prefHeight="64.0" prefWidth="88.0" stylesheets="@style.css" text="Lu" GridPane.columnIndex="17" GridPane.rowIndex="10">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="fermium" layoutX="514.0" layoutY="674.0" mnemonicParsing="false" onAction="#fermiumButtonPressed" prefHeight="64.0" prefWidth="92.0" stylesheets="@style.css" text="Fm" textFill="WHITE" GridPane.columnIndex="14" GridPane.rowIndex="11">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="einsteinium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#einsteiniumButtonPressed" prefHeight="64.0" prefWidth="90.0" stylesheets="@style.css" text="Es" textFill="WHITE" GridPane.columnIndex="13" GridPane.rowIndex="11">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="californium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#californiumButtonPressed" prefHeight="64.0" prefWidth="86.0" stylesheets="@style.css" text="Cf" textFill="WHITE" GridPane.columnIndex="12" GridPane.rowIndex="11">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="berkelium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#berkeliumButtonPressed" prefHeight="64.0" prefWidth="84.0" stylesheets="@style.css" text="Bk" textFill="WHITE" GridPane.columnIndex="11" GridPane.rowIndex="11">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="curium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#curiumButtonPressed" prefHeight="64.0" prefWidth="94.0" stylesheets="@style.css" text="Cm" textFill="WHITE" GridPane.columnIndex="10" GridPane.rowIndex="11">
+               <font>
+                  <Font size="22.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="americium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#americiumButtonPressed" prefHeight="64.0" prefWidth="92.0" stylesheets="@style.css" text="Am" textFill="WHITE" GridPane.columnIndex="9" GridPane.rowIndex="11">
+               <font>
+                  <Font size="22.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="lawrencium" layoutX="892.0" layoutY="674.0" mnemonicParsing="false" onAction="#lawrenciumButtonPressed" prefHeight="64.0" prefWidth="82.0" stylesheets="@style.css" text="Lr" textFill="WHITE" GridPane.columnIndex="17" GridPane.rowIndex="11">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="nobelium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#nobeliumButtonPressed" prefHeight="64.0" prefWidth="84.0" stylesheets="@style.css" text="No" textFill="WHITE" GridPane.columnIndex="16" GridPane.rowIndex="11">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+                <Button id="Actinoids" fx:id="mendelevium" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#mendeleviumButtonPressed" prefHeight="64.0" prefWidth="81.0" stylesheets="@style.css" text="Md" textFill="WHITE" GridPane.columnIndex="15" GridPane.rowIndex="11">
+               <font>
+                  <Font size="22.0" />
+               </font></Button>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="1" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="73.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="9" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="7" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="577.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="13" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="12" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="11" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="10" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="829.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="17" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="17" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="16" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="15" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="14" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="1081.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="18" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.columnIndex="18" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="1144.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.rowIndex="8">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.rowIndex="7">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.rowIndex="6">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.rowIndex="5">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.rowIndex="4">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="10.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" textAlignment="CENTER" wrappingWidth="65.13671875" GridPane.rowIndex="3">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Lanthanoids: " wrappingWidth="131.13671875" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Actinoids: " wrappingWidth="114.13671875" GridPane.columnIndex="1" GridPane.rowIndex="11">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+            </children>
+        </GridPane>
+        <Pane layoutX="215.0" layoutY="213.0" prefHeight="82.0" prefWidth="614.0">
+            <children>
+                <TextField fx:id="atomicMass" editable="false" layoutX="102.0" layoutY="37.0" prefHeight="25.0" prefWidth="202.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></TextField>
+                <TextField fx:id="element" editable="false" layoutX="100.0" prefHeight="25.0" prefWidth="202.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></TextField>
+                <TextField fx:id="atomicNumber" editable="false" layoutX="447.0" layoutY="2.0" prefHeight="25.0" prefWidth="79.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></TextField>
+                <TextField fx:id="classification" editable="false" layoutX="447.0" layoutY="36.0" prefHeight="25.0" prefWidth="153.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></TextField>
+                <Text fill="WHITE" layoutX="15.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Element: " wrappingWidth="71.13671875">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atomic Mass: " wrappingWidth="102.13671875">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="327.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Atomic number:" wrappingWidth="102.13671875">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+                <Text fill="WHITE" layoutX="344.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Classification:" wrappingWidth="102.13671875">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            </children>
+        </Pane>
+      <Pane layoutX="843.0" layoutY="112.0" prefHeight="82.0" prefWidth="339.0">
+         <children>
+            <Text fill="WHITE" layoutX="117.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pnictogens">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="193.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chalcogens">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="271.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Halogens">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

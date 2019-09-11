@@ -1,0 +1,122 @@
+
+#bg {
+
+    -fx-background-color: #514d52;
+}
+
+
+#Alkali_Metals {
+    -fx-background-color: orange;
+    -fx-font-color: #fff;
+    -fx-border-color: #000;
+}
+
+#Alkali_Metals:hover {
+    -fx-opacity: 0.7;
+    -fx-background-color: red;
+    -fx-border-radius: 50%;
+}
+
+#Alkaline_Earth_Metals {
+    -fx-background-color: yellow;
+    -fx-font-color: #fff;
+    -fx-border-color: #000;
+}
+
+#Alkaline_Earth_Metals:hover {
+    -fx-opacity: 0.7;
+    -fx-background-color: red;
+    -fx-border-radius: 50%;
+}
+
+#Transition_Metals {
+    -fx-background-color: #b87035;
+    -fx-font-color: #fff;
+    -fx-border-color: #000;
+}
+
+#Transition_Metals:hover {
+    -fx-opacity: 0.7;
+    -fx-background-color: red;
+    -fx-border-radius: 50%;
+}
+
+#Post_Transition_Metals {
+    -fx-background-color: #4dd6bb;
+    -fx-font-color: #fff;
+    -fx-border-color: #000;
+}
+
+#Post_Transition_Metals:hover {
+    -fx-opacity: 0.7;
+    -fx-background-color: red;
+    -fx-border-radius: 50%;
+}
+
+#Lanthanoids {
+    -fx-background-color: #eaa6ed;
+    -fx-font-color: #fff;
+    -fx-border-color: #000;
+}
+
+#Lanthanoids:hover {
+    -fx-opacity: 0.7;
+    -fx-background-color: red;
+    -fx-border-radius: 50%;
+}
+
+#Actinoids {
+    -fx-background-color: #bb19c2;
+    -fx-font-color: #fff;
+    -fx-border-color: #000;
+}
+
+#Actinoids:hover {
+    -fx-opacity: 0.7;
+    -fx-background-color: red;
+    -fx-border-radius: 50%;
+}
+
+#Other_Non_Metals {
+    -fx-background-color: #3ff235;
+    -fx-border-color: #000;
+}
+
+#Other_Non_Metals:hover {
+    -fx-opacity: 0.7;
+    -fx-background-color: red;
+    -fx-border-radius: 50%;
+}
+
+#Metalloids {
+    -fx-background-color: seagreen;
+    -fx-font-color: #fff;
+    -fx-border-color: #000;
+}
+
+#Metalloids:hover {
+    -fx-opacity: 0.7;
+    -fx-background-color: red;
+    -fx-border-radius: 50%;
+}
+
+#Noble_Gases {
+    -fx-background-color: #7daeff;
+    -fx-border-color: #000;
+}
+
+#Noble_Gases:hover {
+    -fx-opacity: 0.7;
+    -fx-background-color: red;
+    -fx-border-radius: 50%;
+}
+
+#Unknown {
+    -fx-border-color: #000;
+}
+
+#Unknown:hover {
+    -fx-opacity: 0.7;
+    -fx-background-color: red;
+    -fx-border-radius: 50%;
+}
